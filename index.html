@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style sheet add -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Arpit Sabhani - Frontend Web Designer</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">Arpit</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="tel:6351914271"><button class="cta-btn">Let's Talk</button></a>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" onclick="toggleMobileMenu()">Home</a>
+            <a href="#about" onclick="toggleMobileMenu()">About</a>
+            <a href="#portfolio" onclick="toggleMobileMenu()">Portfolio</a>
+            <a href="#skills" onclick="toggleMobileMenu()">Skills</a>
+            <a href="#contact" onclick="toggleMobileMenu()">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-decorations">
+            <div class="decoration decoration-1"></div>
+            <div class="decoration decoration-2"></div>
+            <div class="decoration decoration-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <p style="font-size: 1.125rem; color: #c7d2fe; margin-bottom: 0.5rem;">Hello, I'm</p>
+                    <h1>Arpit Sabhani</h1>
+                    <h2>Frontend Web Designer</h2>
+                    <p>I'm a passionate frontend web designer focused on creating designs that blend creativity with
+                        functionality to solve real user problems.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn-primary">
+                            View My Work
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 12h14m-7-7l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <a href="./CV/Arpit_Sabhani.pdf" target="_blank" class="btn-secondary">Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <div class="profile-container">
+                        <div class="profile-inner">
+                            <img src="./imges/my photo.jpg" alt="Arpit Sabhani" class="profile-img">
+                        </div>
+                        <div class="floating-emoji emoji-1">👨‍💻</div>
+                        <div class="floating-emoji emoji-2">🎨</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating visually appealing and functional designs that
+                    solve real user problems</p>
+            </div>
+            <div class="about-content">
+                <div>
+                    <div class="about-text">
+                        <p>I'm Arpit Sabhani, a frontend web designer with a passion for creating designs that blend
+                            creativity with functionality. My goal is to solve real user problems through intuitive and
+                            visually appealing interfaces.</p>
+                        <p>With a strong foundation in modern web technologies and a keen eye for design, I specialize
+                            in creating responsive, accessible, and user-friendly web experiences that make a lasting
+                            impact.</p>
+                    </div>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="card-header">
+                                <div class="card-icon education-icon">🎓</div>
+                                <div>
+                                    <h3 class="card-title">Education</h3>
+                                </div>
+                            </div>
+                            <p class="card-text">BCA completed in 2022 from Gujarat University</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="card-header">
+                                <div class="card-icon experience-icon">💼</div>
+                                <div>
+                                    <h3 class="card-title">Experience</h3>
+                                </div>
+                            </div>
+                            <p class="card-text">Frontend Web Designer at Sors IT Solution since January 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="approach-card">
+                        <h3 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1.5rem;">My Approach</h3>
+                        <div class="approach-items">
+                            <div class="approach-item">
+                                <div class="approach-dot dot-yellow"></div>
+                                <div class="approach-text">
+                                    <h4>User-Centered Design</h4>
+                                    <p>Creating designs that prioritize user needs and experiences</p>
+                                </div>
+                            </div>
+                            <div class="approach-item">
+                                <div class="approach-dot dot-orange"></div>
+                                <div class="approach-text">
+                                    <h4>Creative Problem Solving</h4>
+                                    <p>Finding innovative solutions to complex design challenges</p>
+                                </div>
+                            </div>
+                            <div class="approach-item">
+                                <div class="approach-dot dot-pink"></div>
+                                <div class="approach-text">
+                                    <h4>Continuous Learning</h4>
+                                    <p>Staying updated with latest design trends and technologies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Portfolio</h2>
+                <p class="section-subtitle">Showcasing my latest projects that demonstrate creativity, functionality,
+                    and user-centered design</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <div class="project-image purple-pink">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?fit=crop&w=600&h=400&q=80"
+                            alt="E-Commerce Project">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Product Page</h3>
+                        <p class="project-description">Responsive product page designed with modern web technologies
+                            focusing on user engagement and accessibility.</p>
+
+                        <div class="tech-section">
+                            <h4 class="section-label">Technologies Used:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Bootstrap 5</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="features-section">
+                            <h4 class="section-label">Key Features:</h4>
+                            <ul class="feature-list">
+                                <li class="feature-item">
+                                    <div class="feature-dot"></div>
+                                    Product cards
+                                </li>
+                                <li class="feature-item">
+                                    <div class="feature-dot"></div>
+                                    Advanced filters
+                                </li>
+                                <li class="feature-item">
+                                    <div class="feature-dot"></div>
+                                    Mobile-first design
+                                </li>
+                                <li class="feature-item">
+                                    <div class="feature-dot"></div>
+                                    Accessibility features
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="outcome-section">
+                            <h4 class="section-label">Outcome:</h4>
+                            <p class="outcome-text">Improved user engagement and retention significantly</p>
+                        </div>
+
+                        <!-- <div class="project-buttons">
+                            <a href="#" class="btn-small btn-gradient">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                </svg>
+                                View Project
+                            </a>
+                            <a href="#" class="btn-small btn-outline">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                </svg>
+                                Source Code
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image blue-teal">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?fit=crop&w=600&h=400&q=80"
+                            alt="LMS Project">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">LMS Frontend</h3>
+                        <p class="project-description">Frontend design of a comprehensive Learning Management System
+                            with intuitive user interface and engaging interactions.</p>
+
+                        <div class="tech-section">
+                            <h4 class="section-label">Technologies Used:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Bootstrap 5</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="features-section">
+                            <h4 class="section-label">Key Features:</h4>
+                            <ul class="feature-list">
+                                <li class="feature-item">
+                                    <div class="feature-dot"></div>
+                                    Student dashboards
+                                </li>
+                                <li class="feature-item">
+                                    <div class="feature-dot"></div>
+                                    Interactive course cards
+                                </li>
+                                <li class="feature-item">
+                                    <div class="feature-dot"></div>
+                                    Quiz forms
+                                </li>
+                                <li class="feature-item">
+                                    <div class="feature-dot"></div>
+                                    Progress indicators
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="outcome-section">
+                            <h4 class="section-label">Outcome:</h4>
+                            <p class="outcome-text">Scalable, user-friendly, and highly engaging UI</p>
+                        </div>
+
+                        <!-- <div class="project-buttons">
+                            <a href="#" class="btn-small btn-gradient">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                </svg>
+                                View Project
+                            </a>
+                            <a href="#" class="btn-small btn-outline">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                </svg>
+                                Source Code
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Proficient in modern web technologies with a focus on creating responsive
+                    and accessible designs</p>
+            </div>
+            <div class="skills-content">
+                <div>
+                    <h3 style="font-size: 1.5rem; font-weight: bold; color: #111827; margin-bottom: 2rem;">Technical
+                        Proficiency</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress progress-html" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress progress-css" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Bootstrap 5</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress progress-bootstrap" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Tailwind CSS</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress progress-tailwind" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress progress-js" style="width: 82%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">jQuery</span>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress progress-jquery" style="width: 78%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Sass CSS</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress progress-sass" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.5rem; font-weight: bold; color: #111827; margin-bottom: 2rem;">Skill
+                        Categories</h3>
+                    <div class="skill-categories">
+                        <div class="category-card">
+                            <div class="category-header">
+                                <div class="category-icon">💻</div>
+                                <div class="category-content">
+                                    <h4>Frontend Technologies</h4>
+                                    <p>Modern web technologies for building responsive interfaces</p>
+                                    <div class="category-skills">
+                                        <span class="category-skill">HTML5</span>
+                                        <span class="category-skill">CSS3</span>
+                                        <span class="category-skill">JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-header">
+                                <div class="category-icon">🎨</div>
+                                <div class="category-content">
+                                    <h4>CSS Frameworks</h4>
+                                    <p>Styling frameworks for rapid development</p>
+                                    <div class="category-skills">
+                                        <span class="category-skill">Bootstrap 5</span>
+                                        <span class="category-skill">Tailwind CSS</span>
+                                        <span class="category-skill">Sass CSS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-header">
+                                <div class="category-icon">⚡</div>
+                                <div class="category-content">
+                                    <h4>JavaScript Libraries</h4>
+                                    <p>Libraries for enhanced functionality</p>
+                                    <div class="category-skills">
+                                        <span class="category-skill">jQuery</span>
+                                        <span class="category-skill">DOM Manipulation</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="philosophy-card">
+                        <h4 class="philosophy-title">Design Philosophy</h4>
+                        <ul class="philosophy-list">
+                            <li class="philosophy-item">
+                                <div
+                                    style="width: 0.5rem; height: 0.5rem; background: #fbbf24; border-radius: 50%; margin-right: 0.75rem;">
+                                </div>
+                                Mobile-first responsive design
+                            </li>
+                            <li class="philosophy-item">
+                                <div
+                                    style="width: 0.5rem; height: 0.5rem; background: #fb923c; border-radius: 50%; margin-right: 0.75rem;">
+                                </div>
+                                Accessibility best practices
+                            </li>
+                            <li class="philosophy-item">
+                                <div
+                                    style="width: 0.5rem; height: 0.5rem; background: #ec4899; border-radius: 50%; margin-right: 0.75rem;">
+                                </div>
+                                Performance optimization
+                            </li>
+                            <li class="philosophy-item">
+                                <div
+                                    style="width: 0.5rem; height: 0.5rem; background: #10b981; border-radius: 50%; margin-right: 0.75rem;">
+                                </div>
+                                Cross-browser compatibility
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-decorations">
+            <div class="contact-decoration contact-decoration-1"></div>
+            <div class="contact-decoration contact-decoration-2"></div>
+            <div class="contact-decoration contact-decoration-3"></div>
+        </div>
+        <div class="container contact-container">
+            <div class="contact-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life? Let's connect and create something
+                    amazing together!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Get In Touch</h3>
+                        <p>I'm always excited to work on new projects and collaborate with creative minds. Whether you
+                            have a project in mind or just want to say hello, feel free to reach out!</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">👤</div>
+                            <div class="contact-text">
+                                <h4>Arpit Sabhani</h4>
+                                <p>Frontend Web Designer</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Ahemdabad,Gujarat, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">💼</div>
+                            <div class="contact-text">
+                                <h4>Current Role</h4>
+                                <p>Frontend Web Designer at Sors IT Solution</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-section">
+                        <h4>Connect With Me</h4>
+                        <div class="social-buttons">
+                            <a href="https://www.linkedin.com/in/arpit-sabhani-3a2878243/" target="_blank" class="social-btn">
+                                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+                                LinkedIn Profile
+                            </a>
+                            <a href="mailto:arpitsabhani@example.com" target="_blank"
+                                class="social-btn social-btn-outline">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                    </path>
+                                </svg>
+                                Send Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 class="form-title">Send a Message</h3>
+                    <form onsubmit="handleFormSubmit(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">First Name</label>
+                                <input type="text" class="form-input" placeholder="Your first name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Last Name</label>
+                                <input type="text" class="form-input" placeholder="Your last name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-input" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Project Details</label>
+                            <textarea class="form-textarea" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 Arpit Sabhani. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            event.target.reset();
+        }
+
+        // Animate skill bars on scroll
+        function animateSkillBars() {
+            const skillBars = document.querySelectorAll('.skill-progress');
+            skillBars.forEach(bar => {
+                const rect = bar.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    const width = bar.style.width;
+                    bar.style.width = '0%';
+                    setTimeout(() => {
+                        bar.style.width = width;
+                    }, 100);
+                }
+            });
+        }
+
+        // Add scroll event listener for animations
+        let animationTriggered = false;
+        window.addEventListener('scroll', () => {
+            if (!animationTriggered) {
+                const skillsSection = document.getElementById('skills');
+                const rect = skillsSection.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    animateSkillBars();
+                    animationTriggered = true;
+                }
+            }
+        });
+
+        // Add fade-in animation on scroll
+        function addScrollAnimations() {
+            const elements = document.querySelectorAll('.project-card, .info-card, .category-card');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            elements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+                observer.observe(el);
+            });
+        }
+
+        // Initialize animations when page loads
+        document.addEventListener('DOMContentLoaded', addScrollAnimations);
+    </script>
+</body>
+
+</html>
